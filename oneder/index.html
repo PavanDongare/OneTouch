@@ -49,8 +49,8 @@
       <div class="container">
         <div class="row align-items-center">
           
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="mb-0">OneTouch</a></h1>
+          <div class="col-2 col-xl-2">
+            <img src="images/logo.png" alt="Image" class="img-fluid">
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -58,13 +58,22 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-                <li><a href="#about-section" class="nav-link">About OneTouch</a></li>
-                <li><a href="#team-section" class="nav-link">Team</a></li>
-
+                <li><a href="#about-section" class="nav-link">Features</a></li>
                 <li><a href="#portfolio-section" class="nav-link">Products</a></li>
                 <li><a href="#services-section" class="nav-link">Android App</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                <li><a href="#downloads" class="nav-link">Downloads</a></li>
+               
+
+
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">About Us</a>
+                  <ul class="dropdown">
+                    <li><a href="#team-section" class="nav-link">Team</a></li>
+                    <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                  </ul>
+                </li>
+                
               </ul>
             </nav>
           </div>
@@ -86,15 +95,20 @@
 
          
           <div class="col-md-8 mt-lg-5 text-center">
-            <iframe width="820" height="300"
-              src="https://www.youtube.com/embed/twcrsf52JtM?autoplay=1">
-            </iframe>
-   
-            <h1 class="text-uppercase mb-5" data-aos="fade-up">Open for Pre-Booking</h1>
-            
+            <br>
+            <br>
+            <br>
+           
             <div data-aos="fade-up" data-aos-delay="100">
               <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Book Now</a>
             </div>
+
+            <iframe width="640" height="480"
+              src="https://www.youtube.com/embed/3tZmG1HSjQo?autoplay=1">     
+            </iframe>
+   
+         
+            
           </div>
             
         </div>
@@ -123,14 +137,17 @@
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3 class="h3 mb-4 text-black">See our demo</h3>
+              <h3 class="h3 mb-4 text-black">Toch Panel features </h3>
             </div>
             <div class="mb-4">
               <ul class="list-unstyled ul-check success">
-                <li> Blazing Fast </li>
-                <li> Remote app controlled</li>
-                <li> Reliable </li>
-                <li>Consectetur adipisicing elit</li>
+                <li> Reliable and Compatible socket Design </li>
+                <li> Water Resistant and shock Proof </li>
+                <li> Dim Light indicators for Night </li>
+                <li> Device lock </li>
+                <li>  Custom Remember’s State </li>
+                <li>  User Friendly Automation </li>
+                <li>   Multi user multi device Account  </li>
               </ul>
               
             </div>
@@ -313,7 +330,6 @@
       
 
       <div class="container">
-
         <div class="row mb-3">
           <div class="col-12 text-center" data-aos="fade">
             <h2 class="section-title mb-3">Portfolio</h2>
@@ -323,89 +339,42 @@
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div id="filters" class="filters text-center button-group col-md-7">
             <button class="btn btn-primary active" data-filter="*">All</button>
-            <!-- <button class="btn btn-primary" data-filter=".black">Black Panels</button>
-            <button class="btn btn-primary" data-filter=".white">White Panels</button>
-            <button class="btn btn-primary" data-filter=".feature">Feature Pics</button> -->
+            <button class="btn btn-primary" data-filter=".standard"> Standard </button>
+            <button class="btn btn-primary" data-filter=".custom"> Custom </button>
+            <button class="btn btn-primary" data-filter=".others"> Others </button>
           </div>
         </div>  
         
         <div id="posts" class="row no-gutter">
-          <div class="item black col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_1.jpg">
-            </a>
-          </div>
-          <div class="item black col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_2.jpg">
-            </a>
-          </div>
+            <div class="item standard col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+              <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/-img_1.jpg">
+              </a>
+            </div>
 
-          <div class="item feature col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_3.jpg">
-            </a>
-          </div>
+            <div class="item custom col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+              <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/-img_1.jpg">
+              </a>
+            </div>
+            
 
-          <div class="item white col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
 
-            <a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_4.jpg">
-            </a>
 
-          </div>
 
-          <div class="item black col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_5.jpg">
-            </a>
-          </div>
 
-          <div class="item feature col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_6.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_6.jpg">
-            </a>
-          </div>
 
-          <div class="item black col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_7.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_7.jpg">
-            </a>
-          </div>
-
-          <div class="item white col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_8.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_8.jpg">
-            </a>
-          </div>
-
-          <div class="item black col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_9.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_9.jpg">
-            </a>
-          </div>
-
-          <div class="item white col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_10.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/img_10.jpg">
-            </a>
-          </div>
-
-          
-          </div>
-
+            
         </div>
+
+
+
+
       </div>
+
+
 
     </section>
 
@@ -559,7 +528,7 @@
                   <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-head"></span></div>
                   <div>
                     <h3>Web &amp; Mobile Specialties</h3>
-                    <p>Feature1</p>
+                    <p>others1</p>
                     <p class="mb-0"><a href="#">Learn More</a></p>
                   </div>
                 </div>
@@ -569,7 +538,7 @@
                   <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-smartphone"></span></div>
                   <div>
                     <h3>Intuitive Thinkers</h3>
-                    <p>Feature2</p>
+                    <p>others2</p>
                     <p class="mb-0"><a href="#">Learn More</a></p>
                   </div>
                 </div>
